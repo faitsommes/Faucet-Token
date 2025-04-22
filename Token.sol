@@ -15,7 +15,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract Token is ERC20 {
 
     constructor(string memory _name, string memory _symbol, address faucet) ERC20(_name, _symbol) {
-        _mint(faucet, 1000000 * 1e18); // Sends 10000 tokens to the faucet address.
+        _mint(faucet, 1000000 * 1e18); // Sends 1000000 tokens to the faucet address.
     }
 
 }
