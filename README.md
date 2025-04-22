@@ -35,3 +35,9 @@ This repository contains the code for deploying your own **Token** and a **Token
   - Users can request tokens by calling the `requestTokens()` function.
   - The amount of tokens they receive depends on how long the contract has been active (the longer it’s been active, the lower the amount due to the 10% monthly decrease).
   - Users can request tokens once every 24 hours.
+
+## Warning
+
+<div style="background-color: red; color: white; padding: 10px; border-radius: 5px; font-weight: bold;">
+    Please follow the deployment steps in the specified order to avoid errors.
+</div>
