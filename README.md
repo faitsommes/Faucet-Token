@@ -28,6 +28,7 @@ This repository contains the code for deploying your own **Token** and a **Token
 
 2. **Deploy the Token contract (Token.sol)**:
   - Set the name and the symbol of the Token when deploying.
+  - Specify the Faucet contract address too.
     
 3. **Use setTokenAddress() with Token's contract address**
 
